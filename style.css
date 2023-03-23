@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #1D1D1D;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+header nav li {
+  margin-left: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #1D1D1D;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+footer li {
+  margin-left: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Home Page Styles */
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://via.placeholder.com/1500x1000.png?text=Home+Page+Background');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.home-section h2 {
+  font-size: 60px;
+  margin: 0;
+  color: white;
+}
+
+.home-section p {
+  font-size: 30px;
+  color: white;
+}
+
+.home-section button {
+  background-color: #FFA500;
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/* About Page Styles */
+.about-section {
+  padding: 50px;
+}
+
+.about-section h2 {
+  font-size: 36px;
+}
+
+.about-section p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Music Page Styles */
+.music-section {
+  padding: 50px;
+}
+
+.music-section h2 {
+  font-size: 36px;
+}
+
+.music-section p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.music-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.music-section li {
+  margin-top: 20px;
+}
+
+.music-section a {
+  color: #FFA500;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Shows Page Styles */
+.shows-section {
+  padding: 50px;
+}
+
+.shows-section h2 {
+  font-size: 36px;
+}
+
+.shows-section p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.shows-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.shows-section li {
+  margin-top: 20px;
+}
+
+.shows-section a {
+  color: #FFA500;
+  text-decoration: none;
+  font-size: 20px;
+}
+
